@@ -3,7 +3,6 @@ local opts = {
     noremap = true,      -- non-recursive
     silent = true,       -- do not show message
 }
-
 -----------------
 -- Normal mode --
 -----------------
@@ -42,7 +41,8 @@ vim.keymap.set('i', '{', '{}<Esc>i', opts)
 vim.keymap.set('i', 'jj', '<Esc>', opts)
 -- vim.keymap.set('i', '{', '{<CR>}<Esc>O', opts)
 -- 引号自动补全
-vim.keymap.set('i', '{', '{}<Esc>i', opts)
+vim.keymap.set('i', '\'', '\'\'<Esc>i', opts)
+vim.keymap.set('i', '\"', '\"\"<Esc>i', opts)
 
 --------------
 -- tree map --
