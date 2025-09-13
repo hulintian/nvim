@@ -36,6 +36,7 @@ return {
         'coc-xml',
         'coc-yank',
         'coc-vetur',
+        'coc-vimtex',
       }
 
       -- 使用 <Tab> 进行补全
