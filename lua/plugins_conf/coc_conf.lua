@@ -32,10 +32,13 @@ return {
         'coc-spell-checker',
         'coc-tabnine',
         'coc-tslint-plugin',
-        'coc-vetur',
+        ---'coc-vetur',
         'coc-xml',
         'coc-yank',
-        'coc-vetur',
+--         'coc-vetur',
+
+    '@yaegassy/coc-volar',
+        '@yaegassy/coc-volar',
         'coc-vimtex',
       }
 

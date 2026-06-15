@@ -25,16 +25,16 @@ return {
                   download_images = false, ---@type boolean | fun(): boolean
                 },
             tex = {
-          relative_template_path = false, ---@type boolean | fun(): boolean
-          template = [[
-    \begin{figure}[h]
-      \centering
-      \includegraphics[width=0.8\textwidth]{$FILE_PATH}
-      \caption{$CURSOR}
-      \label{fig:$LABEL}
-    \end{figure}
-        ]], ---@type string | fun(context: table): string
-        },
+                relative_template_path = false, ---@type boolean | fun(): boolean
+                template = [[
+                            \begin{figure}[H]
+                              \centering
+                              \includegraphics[\textwidth]{$FILE_PATH}
+                              \caption{$CURSOR}
+                              \label{fig:$LABEL}
+                            \end{figure}
+                                ]], ---@type string | fun(context: table): string
+                                },
         },
       }
   end 
